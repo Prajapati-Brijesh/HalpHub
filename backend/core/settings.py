@@ -26,17 +26,6 @@ SECRET_KEY = 'django-insecure-lea#yhbuw6i&usx3f6k-*5rir4gf_%e)#yg8&ja8$m1adh%-n9
 DEBUG = True
 
 import os
-ALLOWED_HOSTS = ['*'] # Allowed hosts for Render and Vercel
-
-
-# Application definition
-
-INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
 ALLOWED_HOSTS = ['*']
 
 
