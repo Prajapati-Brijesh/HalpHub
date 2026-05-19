@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: import.meta.env.VITE_API_URL || 'http://localhost:8000/api' });
+const API = axios.create({ baseURL: import.meta.env.VITE_API_URL || 'https://halphub-backend.onrender.com/api' });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem('token')) {
