@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Vite / React Build output
+dist/
+dist-ssr/
+*.local
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
